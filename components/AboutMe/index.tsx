@@ -2,10 +2,10 @@
 import { useState } from "react";
 
 const AboutMe = () => {
-  const [minimized, setMinimized] = useState(false);
+  const [minimized, setMinimized] = useState(true);
 
   return (
-    <section className="section-container" id="about-me">
+    <section className="mx-[4rem] my-[2rem] md:mx-[10rem] md:my-[8rem]" id="about-me">
       <div className="flex flex-col gap-[3rem]">
         <div id="terminal-ui">
           <div className="relative bg-[#9a9a9a] p-[5px] rounded-xl">

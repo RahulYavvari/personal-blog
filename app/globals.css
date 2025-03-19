@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Hammersmith+One&family=Homemade+Apple&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 @import "tailwindcss";
 
 
@@ -11,6 +13,9 @@ body {
 
 .section-container {
   margin: 8rem 10rem;
+  border-top: 1px solid rgb(93, 93, 93);
+  border-radius: 16px;
+  padding-top: 1rem;
 }
 
 @media (max-width: 768px) { /* Adjusts for tablets and smaller devices */
@@ -41,6 +46,12 @@ body {
 
 .homemade-apple--font {
   font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.courier-prime--font {
+  font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
 }
