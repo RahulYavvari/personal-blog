@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Hammersmith+One&family=Homemade+Apple&display=swap');
+@import "tailwindcss";
+
+
+body {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Hammersmith One", sans-serif;
+}
+
+.section-container {
+  margin: 8rem 10rem;
+}
+
+@media (max-width: 768px) { /* Adjusts for tablets and smaller devices */
+  .section-container {
+    margin: 4rem 2rem; /* Reduce margin for better fit */
+  }
+}
+
+@media (max-width: 480px) { /* Adjusts for phones */
+  .section-container {
+    margin: 4rem 2rem; /* Even smaller margin for mobile screens */
+  }
+}
+
+
+body {
+  background-color: black;
+  color: white;
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
+.dela-gothic--font {
+  font-family: "Dela Gothic One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.homemade-apple--font {
+  font-family: "Homemade Apple", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
