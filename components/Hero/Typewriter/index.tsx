@@ -4,10 +4,9 @@ import React, { useState, useEffect } from "react";
 interface TypewriterProps {
     texts: string[];
     speed?: number;
-    loop?: boolean;
 }
 
-const Typewriter: React.FC<TypewriterProps> = ({ texts, speed = 100, loop = false }) => {
+const Typewriter: React.FC<TypewriterProps> = ({ texts, speed = 100 }) => {
     const [displayedText, setDisplayedText] = useState<string>("");
     const [textIndex, setTextIndex] = useState<number>(0);
     const [charIndex, setCharIndex] = useState<number>(0);

@@ -11,10 +11,10 @@ const Hero = () => {
         
         <div className="dela-gothic--font text-4xl md:text-5xl self-start">
             <h1 className="mb-2">Hello,</h1>
-            <h1>I'm <span className="text-[#B08EFF] " >Rahul Yavvari</span></h1>
+            <h1>I&apos;m <span className="text-[#B08EFF] " >Rahul Yavvari</span></h1>
 
             <h1 className="mt-10 courier-prime--font text-3xl md:text-4xl text-[#ffffff]">
-                <Typewriter texts={[" I am a developer.", " I love to code.", " I love design."]} speed={100} loop={true} />
+                <Typewriter texts={[" I am a developer.", " I love to code.", " I love design."]} speed={100} />
             </h1>
         </div>
 
