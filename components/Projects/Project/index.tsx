@@ -1,7 +1,7 @@
 
 const Project = ( {title, description, imgSrc, githubURL, demoURL}: {title: string, description: string, imgSrc: string | null, githubURL: string | null, demoURL: string | null} ) => {
     return (
-        <div className="flex flex-col gap-1 p-3 border-[1px] border-[#6C6C6C] rounded-2xl bg-[#333333] transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-102">
+        <div className="flex flex-col gap-1 p-3 border-[1px] border-[#6C6C6C] rounded-2xl bg-[#333333] transition duration-300 ease-in-out hover:shadow-[0_4px_15px_rgba(255,255,255,0.1)] hover:-translate-y-1 hover:scale-[1.03]">
                     { !imgSrc ? 
                     <div className="w-[100%] h-[160px] mx-auto rounded-xl bg-[#d7d7d7]"></div>
                     : <img src={imgSrc ?? ""} alt="project-image" />}

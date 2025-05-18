@@ -1,8 +1,14 @@
 "use client";
 import React, { useEffect, useState } from 'react';
 
+type Time = {
+    hours: string;
+    minutes: string;
+    ampm: string;
+}
+
 const DigitalClock = () => {
-  const [time, setTime] = useState<any>(null);
+  const [time, setTime] = useState<Time>({hours: "", minutes: "", ampm: ""});
 
   useEffect(() => {
     const getCurrentTime = () => {
@@ -28,7 +34,11 @@ const DigitalClock = () => {
     return () => clearInterval(interval);
   }, []);
 
-  if (!time) return null;
+  if (!time) return (
+    <span className='font-mono bg-[#ffffff] rounded-3xl shadow-2xl text-black px-4 py-1 font-bold'>
+      {"00"}:{"00"} {"AM"}
+    </span>
+  );
 
   return (
     <span className='font-mono bg-[#ffffff] rounded-3xl shadow-2xl text-black px-4 py-1 font-bold'>
