@@ -49,7 +49,7 @@ const DigitalClock = () => {
 
 const Navbar = () => {
     return (
-        <nav className="fixed bg-[#292929aa] w-[100%] h-[70px] border-b-1 border-[#3a3a3a] top-[0%] left-[50%] transform translate-x-[-50%] mt-0 backdrop-blur-lg z-50">
+        <nav className="fixed bg-[#121212cf] w-[100%] h-[70px] border-b-1 border-[#3a3a3a] top-[0%] left-[50%] transform translate-x-[-50%] mt-0 backdrop-blur-lg z-50">
             <div className="flex items-center h-full justify-center gap-[4rem]">
                 <span className='homemade-apple--font text-2xl font-bold'>RY</span>
                 <a href="#about-me" className="hover:bg-[#ffffffdc] cursor-pointer px-4 py-1 hover:text-black rounded-3xl transition-all duration-200">About</a>
