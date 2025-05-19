@@ -5,7 +5,7 @@ const AboutMe = () => {
   const [minimized, setMinimized] = useState(true);
 
   return (
-    <section className="mx-[2rem] my-[2rem] md:mx-[10rem] md:my-[8rem] scroll-mt-[120px]" id="about-me">
+    <section className="mx-[1rem] my-[2rem] md:mx-[10rem] md:my-[8rem] scroll-mt-[120px]" id="about-me">
       <div className="flex flex-col gap-[3rem]">
         <div id="terminal-ui">
           <div className="relative bg-[#9a9a9a] p-[5px] rounded-xl">
