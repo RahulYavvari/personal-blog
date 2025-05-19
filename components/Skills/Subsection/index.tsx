@@ -1,11 +1,11 @@
 import SkillTab from "@/components/Skills/SkillTab";
 
-const Subsection = ({id, title}: { id: string; title: string }) => {
+const Subsection = ({id, title, content}: { id: string; title: string, content: string[] }) => {
     return (
         <div id={id}>
         <h2 className="dela-gothic--font text-[#cccccc] text-2xl">{title}</h2>
         <div className="flex flex-wrap my-4 gap-3 text-sm">
-            <SkillTab tag={"JavaScript"}/>
+            {/* <SkillTab tag={"JavaScript"}/>
             <SkillTab tag={"TypeScript"}/>
             <SkillTab tag={"C"}/>
             <SkillTab tag={"C++"}/>
@@ -19,8 +19,8 @@ const Subsection = ({id, title}: { id: string; title: string }) => {
             <SkillTab tag={"C#"}/>
             <SkillTab tag={"MATLAB"}/>
             <SkillTab tag={"Rust"}/>
-            <SkillTab tag={"Go"}/>
-
+            <SkillTab tag={"Go"}/> */}
+            {content.map((skill, index) => <SkillTab key={index} tag={skill} />)}
         </div>
     </div>
     );

@@ -5,7 +5,7 @@ const AboutMe = () => {
   const [minimized, setMinimized] = useState(true);
 
   return (
-    <section className="mx-[1.5rem] my-[2rem] md:mx-[10rem] md:my-[8rem] scroll-mt-[80px] md:scroll-mt-[120px]" id="about-me">
+    <section className="mx-[1.5rem] my-[2rem] md:mx-[10rem] md:my-[8rem] scroll-mt-[50px] md:scroll-mt-[120px]" id="about-me">
       <div className="flex flex-col gap-[3rem]">
         <div id="terminal-ui">
           <div className="relative bg-[#9a9a9a] p-[5px] rounded-xl">
@@ -27,10 +27,10 @@ const AboutMe = () => {
                   minimized ? "max-h-[1000px] opacity-100" : "max-h-0 opacity-0"
                 }`}
               >
-                <p className="text-md pt-10">
+                <p className="text-[0.9rem] md:text-md pt-10">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, error corrupti a neque eos quis expedita! Assumenda, quam tempore iure rem corrupti officia, ipsam facilis est minus doloremque perferendis commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, error corrupti a neque eos quis expedita! Assumenda, quam tempore iure rem corrupti officia, ipsam facilis est minus doloremque perferendis commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
-                <p className="text-md pt-4">
+                <p className="text-[0.9rem] md:text-md pt-4">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, magnam quas facere ipsa totam aliquid assumenda temporibus ratione ad obcaecati veritatis laboriosam quam nobis vel dolor beatae! Beatae, dicta excepturi.
                 </p>
 

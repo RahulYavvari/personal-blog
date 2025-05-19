@@ -1,7 +1,7 @@
 export const projects = [
     {
         id: 1,
-        title: "CachePlusPlus",
+        title: "Acronyte",
         description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
         githubURL: null,
         demoURL: null,
@@ -9,7 +9,7 @@ export const projects = [
     },
         {
         id: 2,
-        title: "CachePlusPlus",
+        title: "ChatSphere",
         description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
         githubURL: null,
         demoURL: null,
@@ -17,7 +17,7 @@ export const projects = [
     },
         {
         id: 3,
-        title: "CachePlusPlus",
+        title: "ClickCart",
         description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
         githubURL: null,
         demoURL: null,
@@ -25,7 +25,7 @@ export const projects = [
     },
         {
         id: 4,
-        title: "CachePlusPlus",
+        title: "MailAck",
         description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
         githubURL: null,
         demoURL: null,
