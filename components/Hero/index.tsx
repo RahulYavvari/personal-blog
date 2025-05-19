@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="absolute top-0 left-0 w-full h-full backdrop-blur-[150px] md:backdrop-blur-[250px] -z-10"></div>
         <Image className="absolute h-[80%] md:h-[100vh] md:w-[100vw] top-[50%] left-[50%] tranform translate-x-[-50%] translate-y-[-50%] -z-20" src={wavySphere} priority alt="sphere animation for asthetics"/>
         
-        <div className="dela-gothic--font text-4xl md:text-5xl self-start">
+        <div className="dela-gothic--font text-3xl md:text-5xl self-start">
             <h1 className="mb-2">Hello,</h1>
             <h1>I&apos;m <span className="text-[#B08EFF] " >Rahul Yavvari</span></h1>
 
@@ -21,7 +21,7 @@ const Hero = () => {
             </h1>
         </div>
 
-        <a href="#" className="rounded-full border border-blue-600 px-3 py-1 bg-blue-800">
+        <a href="#" className="rounded-full border text-lg border-blue-600 px-3 py-1 bg-blue-800">
             Resume
         </a>
     </section>
