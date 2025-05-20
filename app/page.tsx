@@ -1,4 +1,3 @@
-"use client";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ContactMe from "@/components/ContactMe";
@@ -9,8 +8,6 @@ import Hero from "@/components/Hero";
 import BurgerMenu from "@/components/BurgerMenu";
 
 export default function Home() {
-
-
   return (
     <div className="">
       <BurgerMenu/>
