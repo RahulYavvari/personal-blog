@@ -9,7 +9,7 @@ import BurgerMenu from "@/components/BurgerMenu";
 
 export default function Home() {
   return (
-    <div className="">
+    <div>
       <BurgerMenu/>
       <Navbar/>
       <Hero/>

@@ -3,9 +3,6 @@ import wavySphere from "@/public/wavy-sphere.gif";
 
 import Typewriter from "./Typewriter";
 
-// MAKE THE HEADER THINGY the COREEEEEEEEEEE
-// SERVE () => {stuff} @ HEROs
-
 const Hero = () => {
     return (
     <section className="w-full h-[100vh] flex flex-col justify-center items-center gap-[10rem] px-[1rem] md:px-[10rem]" id="hero">
