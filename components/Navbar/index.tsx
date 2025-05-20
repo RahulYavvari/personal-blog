@@ -36,10 +36,10 @@ const DigitalClock = () => {
 
   if (!time) return (
     <span className='font-mono bg-[#ffffff] rounded-3xl shadow-2xl text-black px-4 py-1 font-bold'>
-      {"00"}:{"00"} {"AM"}
+      {"12"}:{"00"} {"AM"}
     </span>
   );
-
+  
   return (
     <span className='font-mono bg-[#ffffff] rounded-3xl shadow-2xl text-black px-4 py-1 font-bold'>
       {time.hours}:{time.minutes} {time.ampm}

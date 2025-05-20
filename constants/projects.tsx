@@ -7,7 +7,7 @@ export const projects = [
         demoURL: null,
         imgSrc: null
     },
-        {
+    {
         id: 2,
         title: "ChatSphere",
         description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
@@ -15,7 +15,7 @@ export const projects = [
         demoURL: null,
         imgSrc: null
     },
-        {
+    {
         id: 3,
         title: "ClickCart",
         description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
@@ -23,7 +23,7 @@ export const projects = [
         demoURL: null,
         imgSrc: null
     },
-        {
+    {
         id: 4,
         title: "MailAck",
         description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
