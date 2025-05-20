@@ -12,7 +12,6 @@ export default function Home() {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
   const handleClick = () => {
-    console.log("Clicked");
     setIsBurgerOpen((prev) => !prev);
   }
 
