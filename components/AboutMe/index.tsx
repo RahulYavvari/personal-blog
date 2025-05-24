@@ -26,13 +26,12 @@ const AboutMe = () => {
                   }`}
               >
                 <p className="text-[0.9rem] md:text-md pt-10">
-                  I'm someone who enjoys building things that work well and feel simple to use. I’m especially drawn to distributed systems—how everything fits together behind the scenes—and also to UI, where small details can make a big difference. I like working on projects that are useful, clear, and don’t try too hard to be clever.
+                  I&apos;m someone who enjoys building things that work well and feel simple to use. I&apos;m especially drawn to distributed systems—how everything fits together behind the scenes—and also to UI, where small details can make a big difference. I like working on projects that are useful, clear, and don&apos;t try too hard to be clever.
 
-                  Outside of work, I’m usually listening to music or messing around on my guitar—nothing fancy, just a few chords and whatever sounds good. I like learning how things work, staying curious, and keeping things clean—whether that’s code, design, or just how I approach problems in general.
+                  Outside of work, I&apos;m usually listening to music or messing around on my guitar—nothing fancy, just a few chords and whatever sounds good. I like learning how things work, staying curious, and keeping things clean—whether that&apos;s code, design, or just how I approach problems in general.
                 </p>
                 <p className="text-[0.9rem] md:text-md pt-4">
-                  At the end of the day, I try to keep things straightforward. I enjoy working with people who care about what they’re building and aren’t afraid to dig into the details. I don’t overhype things, but I take pride in doing solid work that holds up over time. Whether it’s a backend service or a small UI tweak, I want the things I build to make sense—to me, to users, and to whoever reads the code next.
-
+                  At the end of the day, I try to keep things straightforward. I enjoy working with people who care about what they&apos;re building and aren&apos;t afraid to dig into the details. I don&apos;t overhype things, but I take pride in doing solid work that holds up over time. Whether it&apos;s a backend service or a small UI tweak, I want the things I build to make sense—to me, to users, and to whoever reads the code next.
                 </p>
 
                 <div className="pt-10 flex gap-3 flex-wrap">
