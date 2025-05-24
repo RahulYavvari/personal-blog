@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 const AboutMe = () => {
-  const [minimized, setMinimized] = useState(true);
+  const [minimized, setMinimized] = useState(false);
 
   return (
     <section className="mx-[1.5rem] my-[2rem] md:mx-[10rem] md:my-[8rem] scroll-mt-[50px] md:scroll-mt-[120px]" id="about-me">

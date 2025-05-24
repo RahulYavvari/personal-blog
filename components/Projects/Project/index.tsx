@@ -1,15 +1,13 @@
 import Image from "next/image";
 
 const Project = ( {title, description, imgSrc, githubURL, demoURL}: {title: string, description: string, imgSrc: string | null, githubURL: string | null, demoURL: string | null} ) => {
-    
-    imgSrc = "https://designshack.net/wp-content/uploads/placeholder-image.png";
     return (
         <div className="flex flex-col gap-1 p-3 border-[1px] border-[#6C6C6C] rounded-2xl bg-[#333333] transition duration-300 ease-in-out hover:shadow-[0_4px_15px_rgba(255,255,255,0.1)] hover:-translate-y-1 hover:scale-[1.03]">
                     { !imgSrc ? 
                     <div className="w-[100%] h-[160px] mx-auto rounded-xl bg-[rgb(215,215,215)]"></div>
                     : 
-                    <div className="w-[100%] h-[160px] overflow-hidden">
-                        <Image src={imgSrc ?? ""} width={100} height={100} className="w-[100%] h-[100%] rounded-xl object-cover" draggable="false" alt="project-image" />
+                    <div className="w-[100%] h-[160px] border-1 rounded-xl border-gray-600  overflow-hidden">
+                        <Image src={imgSrc ?? ""} width={100} height={100} unoptimized quality={70} className="w-[100%] h-[100%] rounded-xl object-cover" draggable="false" alt="project-image" />
                     </div>
                     }
 

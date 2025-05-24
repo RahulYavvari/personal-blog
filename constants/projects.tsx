@@ -1,3 +1,5 @@
+const placeholderImageURL = "https://designshack.net/wp-content/uploads/placeholder-image.png";
+
 export const projects = [
     {
         id: 1,
@@ -5,7 +7,7 @@ export const projects = [
         description: "A reddit interactive post app, that generates the acronyms everyday.",
         githubURL: "https://github.com/RahulYavvari/Acronyte",
         demoURL: "https://devpost.com/software/acronyte",
-        imgSrc: null
+        imgSrc: "/projects/acronyte.png"
     },
     {
         id: 2,
@@ -13,7 +15,7 @@ export const projects = [
         description: "A realtime chat app that works with WebSockets under the hood.",
         githubURL: "https://github.com/RahulYavvari/ChatSphere",
         demoURL: "https://chatsphere-q9mv.onrender.com/",
-        imgSrc: null
+        imgSrc: "/projects/chatsphere.png"
     },
     {
         id: 3,
@@ -21,7 +23,7 @@ export const projects = [
         description: "A backend designed and build in AWS that simulated Tweet API.",
         githubURL: "https://github.com/ZSource-Platforms/ZSource-Platforms",
         demoURL: null,
-        imgSrc: null
+        imgSrc: "/projects/zsource.png"
     },
     {
         id: 4,
@@ -29,7 +31,7 @@ export const projects = [
         description: "It gives you the email read receipts, still under construction.",
         githubURL: "https://github.com/RahulYavvari/MailReceipt",
         demoURL: null,
-        imgSrc: null
+        imgSrc: "/projects/mailreceipt-dev.png"
     },
         {
         id: 5,
@@ -37,6 +39,6 @@ export const projects = [
         description: "(This is a loop in the interweb, hope you find your way out.)",
         githubURL: "https://github.com/RahulYavvari/personal-blog",
         demoURL: "https://rahulyavvari.vercel.app/",
-        imgSrc: null
+        imgSrc: "/projects/personal-portfolio.png"
     }
 ];
