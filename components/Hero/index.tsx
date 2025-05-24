@@ -1,6 +1,3 @@
-import Image from "next/image";
-import wavySphere from "@/public/wavy-sphere.gif";
-
 import Typewriter from "./Typewriter";
 
 const Hero = () => {
