@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Rahul Yavvari",
-  description: "My blog",
+  description: "This is me.",
 };
 
 export const viewport: Viewport = {
