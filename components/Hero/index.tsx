@@ -18,7 +18,7 @@ const Hero = () => {
             </h1>
         </div>
 
-        <a href="#" className="rounded-full border text-lg border-blue-600 px-3 py-1 bg-blue-800">
+        <a href="https://drive.google.com/file/d/1d2zfZH_r6P04HtOcGhID-76ggIpjIx4Q/edit" target="_blank" className="rounded-full border text-lg border-blue-600 px-3 py-1 bg-blue-800">
             Resume
         </a>
     </section>

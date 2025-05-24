@@ -2,7 +2,7 @@ export const projects = [
     {
         id: 1,
         title: "Acronyte",
-        description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
+        description: "A reddit interactive post app, that generates the acronyms everyday.",
         githubURL: null,
         demoURL: null,
         imgSrc: null
@@ -10,15 +10,15 @@ export const projects = [
     {
         id: 2,
         title: "ChatSphere",
-        description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
+        description: "A realtime chat app that works with WebSockets under the hood.",
         githubURL: null,
         demoURL: null,
         imgSrc: null
     },
     {
         id: 3,
-        title: "ClickCart",
-        description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
+        title: "ZSource",
+        description: "A backend designed and build in AWS that simulated Tweet API.",
         githubURL: null,
         demoURL: null,
         imgSrc: null
@@ -26,7 +26,15 @@ export const projects = [
     {
         id: 4,
         title: "MailAck",
-        description: "Lorem Ipsum apply little pressure and the suit fits perfectly.",
+        description: "It gives you the email read receipts, still under construction.",
+        githubURL: null,
+        demoURL: null,
+        imgSrc: null
+    },
+        {
+        id: 5,
+        title: "Personal Portfolio",
+        description: "(This is a loop in the interweb, hope you find your way out.)",
         githubURL: null,
         demoURL: null,
         imgSrc: null

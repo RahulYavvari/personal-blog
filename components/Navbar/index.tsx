@@ -8,8 +8,7 @@ type Time = {
 }
 
 const DigitalClock = () => {
-  const [time, setTime] = useState<Time>({hours: "", minutes: "", ampm: ""});
-
+  const [time, setTime] = useState<Time>({hours: "12", minutes: "00", ampm: "AM"});
   useEffect(() => {
     const getCurrentTime = () => {
       const now = new Date();
